@@ -1,8 +1,8 @@
 body{
-    background-color: (6,6,56);
+    background-color: (6,6,56);/*Missing rgb infront of the (*/
 }
 body{
-    color: (255,255,255);
+    color: (255,255,255);/*Missing rgb infront of the (*/
 }
 body{
     font-family: 'Courier New', Courier, monospace;
@@ -11,13 +11,13 @@ body{
     margin: 0;
 }
 header{
-    background-color: (25,64,100);
+    background-color: (25,64,100);/*Missing rgb infront of the (*/
 }
 header{
     padding: 2rem;
 }
 header a{
-    color: (66,211,221);
+    color: (66,211,221);/*Missing rgb infront of the (*/
 }
 header{
     text-align: center;
@@ -38,7 +38,7 @@ main{
     vertical-align: top;
 }
 .jellies, .whales, .creatures{
-    background-color: (19,107,114);
+    background-color: (19,107,114);/*Missing rgb infront of the (*/
 }
 .jellies, .whales, .creatures{
     padding: 1rem;
