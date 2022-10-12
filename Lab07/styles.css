@@ -64,8 +64,8 @@ main img{
     }
     header{
         flex-wrap: nowrap;
-        justify-content:flex-start;
-        align-items: flex-start;
+        justify-content:flex-start;/*Should be space between. This will push the logo to the left and the nav to the right*/
+        align-items: flex-start;/*This should be flex-end. It will push the  logo and nav to the bottom of the header*/
     }
     .about-me{
         display: flex;
