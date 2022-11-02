@@ -11,13 +11,15 @@
 <link href="https://fonts.googleapis.com/css2?family=Eater&family=Montserrat:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header></header>
+    <header>
+        <!--Should be a h1 here with "Monster Creator"-->
+    </header>
     <main>
       <form action="https://theresahanson.com/monster-creator" method="post" enctype="multipart/form-data">
           <label for="name">Monster's Name</label>
-          <input type="text" id="email" name="monster-name">
+          <input type="text" id="email" name="monster-name"><!--id should be name-->
           <label for="email">Monster's Email</label>
-          <input type="text" id="email" name="monster-email" value="@monsteremail.com">
+          <input type="text" id="email" name="monster-email" value="@monsteremail.com"><!--Type should be email-->
           <label for="birthday">Monster's Birthday</label>
           <input type="date" id="birthday" name="monster-birthday">
           <fieldset>
@@ -31,14 +33,14 @@
               <label for="tentacles">Number of Tentacles</label>
               <input type="number" id="tentacles" name="monster-tentacles" value="0" min="0" max="1000000">
               <label for="picture">Picture of Monster</label>
-              <input type="file" id="picture" name="monster-picture" accept="images/">
+              <input type="file" id="picture" name="monster-picture" accept="images/"><!--After the / there should be a *-->
               <label for="creator">Number of Eyeballs</label>
               <input type="text" id="creator" name="monster-creator" value="Your Name Here">
               <div class="actions">
                   <input type="reset">
                   <input type="submit">
               </div>
-          </fieldset>
+          </fieldset><!--fieldset should be after line 28-->
       </form>
     </main>
 </body>

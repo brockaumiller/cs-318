@@ -43,6 +43,7 @@ input[type=color]{
     height: 4rem;
     border-radius: 2rem;
 }
+/*Each of these types should have input:focus infront of it. */
 :focus input[type=text], [type=email], [type=date], [type=number], [type=color]{
     background-color: black;
     color: white;
