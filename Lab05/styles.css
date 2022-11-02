@@ -13,14 +13,14 @@ header>img{
 header>h1{
     display: inline-block;
     margin: 1rem 0;
-    vertical-align:auto;
+    vertical-align:auto;/*Not a valid value*/
 }
 header>nav>a{
     background-color: #fff;
     color: #275218;
     text-decoration: none;
     padding: 1rem;
-    display:block,inline-block,inline
+    display:block,inline-block,inline/*Only one value allowed. Try inline-block*/
 }
 header>nav{
     padding: 0 0 1rem 1rem;
